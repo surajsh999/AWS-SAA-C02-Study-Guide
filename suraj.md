@@ -172,6 +172,8 @@ Availability Zone (AZ)[¶](https://notes.arkalim.org/notes/aws%20solutions%20arc
 
 > AZ name (eg. us-east-1a) is linked to an AWS account. **Same AZ name for two AWS accounts might not refer to the same physical AZ**. Use **AZ ID (unique ID for each AZ)** to coordinate AZ across accounts.
 
+Computing[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/intro%20to%20aws/#intro-to-aws "Permanent link")
+========================================================================================================================================
 
 Elastic Compute Cloud (EC2)[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/elastic%20compute%20cloud%20(ec2)/#elastic-compute-cloud-ec2 "Permanent link")
 =====================================================================================================================================================================================
