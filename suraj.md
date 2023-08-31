@@ -172,7 +172,7 @@ Availability Zone (AZ)[¶](https://notes.arkalim.org/notes/aws%20solutions%20arc
 
 > AZ name (eg. us-east-1a) is linked to an AWS account. **Same AZ name for two AWS accounts might not refer to the same physical AZ**. Use **AZ ID (unique ID for each AZ)** to coordinate AZ across accounts.
 
-Computing[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/intro%20to%20aws/#intro-to-aws "Permanent link")
+Computing
 ========================================================================================================================================
 
 Elastic Compute Cloud (EC2)[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/elastic%20compute%20cloud%20(ec2)/#elastic-compute-cloud-ec2 "Permanent link")
@@ -1708,6 +1708,9 @@ ElasticSearch[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20
 
 
 
+Data Migration & Sync
+========================================================================================================================================
+
 
 Snow Family[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/snow%20family/#snow-family "Permanent link")
 ===================================================================================================================================
@@ -1908,6 +1911,9 @@ Transfer Family[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%
 -   Clients can either connect directly to the FTP endpoint or optionally through Route 53
 -   Transfer Family will need permission to read or put data into S3 or EFS
 
+
+Networking
+========================================================================================================================================
 
 Route 53[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/route%2053/#route-53 "Permanent link")
 ==========================================================================================================================
@@ -2512,7 +2518,8 @@ Traffic Mirroring[¶](https://notes.arkalim.org/notes/aws%20solutions%20architec
 ![attachments/Pasted image 20220513004847.jpg](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/attachments/Pasted%20image%2020220513004847.jpg)
 
 
-
+Messaging
+========================================================================================================================================
 
 Simple Queue Service (SQS)[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/simple%20queue%20service%20(sqs)/#simple-queue-service-sqs "Permanent link")
 ==================================================================================================================================================================================
@@ -2834,6 +2841,8 @@ Event Bus Policy[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect
 -   Useful to allow or deny events from another AWS account or region ![attachments/Pasted image 20230219100242.jpg](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/attachments/Pasted%20image%2020230219100242.jpg)
 
 
+Access Management
+========================================================================================================================================
 
 Identity & Access Management (IAM)[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/identity%20&%20access%20management%20(iam)/#identity-access-management-iam "Permanent link")
 ==========================================================================================================================================================================================================
@@ -3153,6 +3162,8 @@ Federated SSO vs AWS SSO[¶](https://notes.arkalim.org/notes/aws%20solutions%20a
 -   With AWS SSO, we don't need to manage the login portal, it is done through the AWS SSO. It returns the credentials directly. ![attachments/Pasted image 20220511204548.jpg](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/attachments/Pasted%20image%2020220511204548.jpg)
 
 
+Distribution
+========================================================================================================================================
 
 CloudFront[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/cloudfront/#cloudfront "Permanent link")
 ==============================================================================================================================
@@ -3267,6 +3278,8 @@ Security[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20assoc
 -   Can be integrated with **AWS Shield for DDoS protection**
 
 
+Monitoring & Audit
+========================================================================================================================================
 
 CloudWatch[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/cloudwatch/#cloudwatch "Permanent link")
 ==============================================================================================================================
@@ -3499,6 +3512,9 @@ CostExplorer[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20a
 > AWS Cost Explorer helps you identify under-utilized EC2 instancess
 
 
+Containerization
+========================================================================================================================================
+
 Elastic Container Service (ECS)[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/elastic%20container%20service%20(ecs)/#elastic-container-service-ecs "Permanent link")
 =================================================================================================================================================================================================
 
@@ -3628,7 +3644,8 @@ Elastic Container Registry (ECR)[¶](https://notes.arkalim.org/notes/aws%20solut
 -   Storage backed by [S3](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/Simple%20Storage%20Service%20(S3))
 -   Can upload Docker images on ECR manually or we can use a CICD service like **CodeBuild**
 
-
+Deployment
+========================================================================================================================================
 
 CloudFormation[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/cloudformation/#cloudformation "Permanent link")
 ==========================================================================================================================================
@@ -3740,6 +3757,8 @@ Blue-Green Deployment[¶](https://notes.arkalim.org/notes/aws%20solutions%20arch
 -   Can mitigate common risks associated with deploying software, such as **downtime** and **rollback** capability.
 
 
+Parameters & Encryption
+========================================================================================================================================
 
 Key Management Service (KMS)[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/key%20management%20service%20(kms)/#key-management-service-kms "Permanent link")
 ========================================================================================================================================================================================
@@ -3894,6 +3913,9 @@ OpsWorks[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20assoc
 -   It's an **alternative to AWS SSM**
 -   Exam tip: **Chef & Puppet ⇒ AWS OpsWorks**
 
+
+Analytics
+========================================================================================================================================
 
 
 Athena[¶](https://notes.arkalim.org/notes/aws%20solutions%20architect%20associate/athena/#athena "Permanent link")
